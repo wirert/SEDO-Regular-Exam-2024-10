@@ -4,10 +4,8 @@ on:
   push:
     branches: [ "staging" ]
 jobs:
-  build_test:
-
+  build_integration_test:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout the repo
       uses: actions/checkout@v4
